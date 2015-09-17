@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1958044191788FF0044A8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958043191788FF0044A8E9 /* Foundation.framework */; };
+		F1958046191788FF0044A8E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958045191788FF0044A8E9 /* CoreGraphics.framework */; };
+		F1958048191788FF0044A8E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958047191788FF0044A8E9 /* UIKit.framework */; };
+		F195804A191788FF0044A8E9 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958049191788FF0044A8E9 /* GLKit.framework */; };
+		F195804C191788FF0044A8E9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195804B191788FF0044A8E9 /* OpenGLES.framework */; };
+		F1958052191789000044A8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1958050191789000044A8E9 /* InfoPlist.strings */; };
+		F1958054191789000044A8E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1958053191789000044A8E9 /* main.m */; };
+		F1958058191789000044A8E9 /* bgmAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1958057191789000044A8E9 /* bgmAppDelegate.m */; };
+		F195805B191789000044A8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1958059191789000044A8E9 /* Main.storyboard */; };
+		F195805D191789000044A8E9 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = F195805C191789000044A8E9 /* Shader.fsh */; };
+		F195805F191789000044A8E9 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = F195805E191789000044A8E9 /* Shader.vsh */; };
+		F1958062191789000044A8E9 /* bgmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1958061191789000044A8E9 /* bgmViewController.m */; };
+		F1958064191789000044A8E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1958063191789000044A8E9 /* Images.xcassets */; };
+		F195806B191789000044A8E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F195806A191789000044A8E9 /* XCTest.framework */; };
+		F195806C191789000044A8E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958043191788FF0044A8E9 /* Foundation.framework */; };
+		F195806D191789000044A8E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1958047191788FF0044A8E9 /* UIKit.framework */; };
+		F1958075191789000044A8E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1958073191789000044A8E9 /* InfoPlist.strings */; };
+		F1958077191789000044A8E9 /* SolarSystemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1958076191789000044A8E9 /* SolarSystemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F195806E191789000044A8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1958038191788FF0044A8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F195803F191788FF0044A8E9;
+			remoteInfo = SolarSystem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1958040191788FF0044A8E9 /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1958043191788FF0044A8E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1958045191788FF0044A8E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1958047191788FF0044A8E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1958049191788FF0044A8E9 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F195804B191788FF0044A8E9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F195804F191789000044A8E9 /* SolarSystem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolarSystem-Info.plist"; sourceTree = "<group>"; };
+		F1958051191789000044A8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1958053191789000044A8E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1958055191789000044A8E9 /* SolarSystem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SolarSystem-Prefix.pch"; sourceTree = "<group>"; };
+		F1958056191789000044A8E9 /* bgmAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bgmAppDelegate.h; sourceTree = "<group>"; };
+		F1958057191789000044A8E9 /* bgmAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bgmAppDelegate.m; sourceTree = "<group>"; };
+		F195805A191789000044A8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F195805C191789000044A8E9 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		F195805E191789000044A8E9 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		F1958060191789000044A8E9 /* bgmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bgmViewController.h; sourceTree = "<group>"; };
+		F1958061191789000044A8E9 /* bgmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bgmViewController.m; sourceTree = "<group>"; };
+		F1958063191789000044A8E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1958069191789000044A8E9 /* SolarSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F195806A191789000044A8E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1958072191789000044A8E9 /* SolarSystemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SolarSystemTests-Info.plist"; sourceTree = "<group>"; };
+		F1958074191789000044A8E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1958076191789000044A8E9 /* SolarSystemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F195803D191788FF0044A8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F195804C191788FF0044A8E9 /* OpenGLES.framework in Frameworks */,
+				F1958046191788FF0044A8E9 /* CoreGraphics.framework in Frameworks */,
+				F1958048191788FF0044A8E9 /* UIKit.framework in Frameworks */,
+				F195804A191788FF0044A8E9 /* GLKit.framework in Frameworks */,
+				F1958044191788FF0044A8E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1958066191789000044A8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F195806B191789000044A8E9 /* XCTest.framework in Frameworks */,
+				F195806D191789000044A8E9 /* UIKit.framework in Frameworks */,
+				F195806C191789000044A8E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1958037191788FF0044A8E9 = {
+			isa = PBXGroup;
+			children = (
+				F195804D191788FF0044A8E9 /* SolarSystem */,
+				F1958070191789000044A8E9 /* SolarSystemTests */,
+				F1958042191788FF0044A8E9 /* Frameworks */,
+				F1958041191788FF0044A8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1958041191788FF0044A8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1958040191788FF0044A8E9 /* SolarSystem.app */,
+				F1958069191789000044A8E9 /* SolarSystemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1958042191788FF0044A8E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1958043191788FF0044A8E9 /* Foundation.framework */,
+				F1958045191788FF0044A8E9 /* CoreGraphics.framework */,
+				F1958047191788FF0044A8E9 /* UIKit.framework */,
+				F1958049191788FF0044A8E9 /* GLKit.framework */,
+				F195804B191788FF0044A8E9 /* OpenGLES.framework */,
+				F195806A191789000044A8E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F195804D191788FF0044A8E9 /* SolarSystem */ = {
+			isa = PBXGroup;
+			children = (
+				F1958056191789000044A8E9 /* bgmAppDelegate.h */,
+				F1958057191789000044A8E9 /* bgmAppDelegate.m */,
+				F1958059191789000044A8E9 /* Main.storyboard */,
+				F195805C191789000044A8E9 /* Shader.fsh */,
+				F195805E191789000044A8E9 /* Shader.vsh */,
+				F1958060191789000044A8E9 /* bgmViewController.h */,
+				F1958061191789000044A8E9 /* bgmViewController.m */,
+				F1958063191789000044A8E9 /* Images.xcassets */,
+				F195804E191789000044A8E9 /* Supporting Files */,
+			);
+			path = SolarSystem;
+			sourceTree = "<group>";
+		};
+		F195804E191789000044A8E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F195804F191789000044A8E9 /* SolarSystem-Info.plist */,
+				F1958050191789000044A8E9 /* InfoPlist.strings */,
+				F1958053191789000044A8E9 /* main.m */,
+				F1958055191789000044A8E9 /* SolarSystem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1958070191789000044A8E9 /* SolarSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1958076191789000044A8E9 /* SolarSystemTests.m */,
+				F1958071191789000044A8E9 /* Supporting Files */,
+			);
+			path = SolarSystemTests;
+			sourceTree = "<group>";
+		};
+		F1958071191789000044A8E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1958072191789000044A8E9 /* SolarSystemTests-Info.plist */,
+				F1958073191789000044A8E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F195803F191788FF0044A8E9 /* SolarSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F195807A191789000044A8E9 /* Build configuration list for PBXNativeTarget "SolarSystem" */;
+			buildPhases = (
+				F195803C191788FF0044A8E9 /* Sources */,
+				F195803D191788FF0044A8E9 /* Frameworks */,
+				F195803E191788FF0044A8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolarSystem;
+			productName = SolarSystem;
+			productReference = F1958040191788FF0044A8E9 /* SolarSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1958068191789000044A8E9 /* SolarSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F195807D191789000044A8E9 /* Build configuration list for PBXNativeTarget "SolarSystemTests" */;
+			buildPhases = (
+				F1958065191789000044A8E9 /* Sources */,
+				F1958066191789000044A8E9 /* Frameworks */,
+				F1958067191789000044A8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F195806F191789000044A8E9 /* PBXTargetDependency */,
+			);
+			name = SolarSystemTests;
+			productName = SolarSystemTests;
+			productReference = F1958069191789000044A8E9 /* SolarSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1958038191788FF0044A8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = bgm;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___BGM___";
+				TargetAttributes = {
+					F1958068191789000044A8E9 = {
+						TestTargetID = F195803F191788FF0044A8E9;
+					};
+				};
+			};
+			buildConfigurationList = F195803B191788FF0044A8E9 /* Build configuration list for PBXProject "SolarSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1958037191788FF0044A8E9;
+			productRefGroup = F1958041191788FF0044A8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F195803F191788FF0044A8E9 /* SolarSystem */,
+				F1958068191789000044A8E9 /* SolarSystemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F195803E191788FF0044A8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F195805F191789000044A8E9 /* Shader.vsh in Resources */,
+				F1958064191789000044A8E9 /* Images.xcassets in Resources */,
+				F195805D191789000044A8E9 /* Shader.fsh in Resources */,
+				F1958052191789000044A8E9 /* InfoPlist.strings in Resources */,
+				F195805B191789000044A8E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1958067191789000044A8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1958075191789000044A8E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F195803C191788FF0044A8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1958054191789000044A8E9 /* main.m in Sources */,
+				F1958062191789000044A8E9 /* bgmViewController.m in Sources */,
+				F1958058191789000044A8E9 /* bgmAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1958065191789000044A8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1958077191789000044A8E9 /* SolarSystemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F195806F191789000044A8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F195803F191788FF0044A8E9 /* SolarSystem */;
+			targetProxy = F195806E191789000044A8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1958050191789000044A8E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1958051191789000044A8E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1958059191789000044A8E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F195805A191789000044A8E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1958073191789000044A8E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1958074191789000044A8E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1958078191789000044A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1958079191789000044A8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F195807B191789000044A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSystem/SolarSystem-Prefix.pch";
+				INFOPLIST_FILE = "SolarSystem/SolarSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F195807C191789000044A8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSystem/SolarSystem-Prefix.pch";
+				INFOPLIST_FILE = "SolarSystem/SolarSystem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F195807E191789000044A8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSystem/SolarSystem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SolarSystemTests/SolarSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F195807F191789000044A8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SolarSystem.app/SolarSystem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SolarSystem/SolarSystem-Prefix.pch";
+				INFOPLIST_FILE = "SolarSystemTests/SolarSystemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F195803B191788FF0044A8E9 /* Build configuration list for PBXProject "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1958078191789000044A8E9 /* Debug */,
+				F1958079191789000044A8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F195807A191789000044A8E9 /* Build configuration list for PBXNativeTarget "SolarSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F195807B191789000044A8E9 /* Debug */,
+				F195807C191789000044A8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F195807D191789000044A8E9 /* Build configuration list for PBXNativeTarget "SolarSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F195807E191789000044A8E9 /* Debug */,
+				F195807F191789000044A8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1958038191788FF0044A8E9 /* Project object */;
+}
